@@ -1,8 +1,5 @@
 {
   "name": "stock-screener-functions",
   "version": "1.0.0",
-  "dependencies": {
-    "yahoo-finance2": "^2.11.0",
-    "@anthropic-ai/sdk": "^0.27.0"
-  }
+  "dependencies": {}
 }

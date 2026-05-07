@@ -1,0 +1,1611 @@
+{
+  "meta": {
+    "version": "1.0",
+    "platform": "Plus500 CFD",
+    "leverage_retail_stocks": "1:5",
+    "leverage_retail_crypto": "1:2",
+    "regions": [
+      "USA",
+      "China_ADR",
+      "Crypto_Stocks"
+    ],
+    "update_date": "2025-05",
+    "expansion_note": "Basis-Universe: 247 Titel. Erweiterung auf 1200+ via yfinance Index-Download (Schritt 2)",
+    "total_count": 247
+  },
+  "segments": {
+    "SP500_TECH": {
+      "label": "S&P 500 – Technologie",
+      "region": "USA",
+      "momentum_potential": "HIGH",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "AAPL",
+          "n": "Apple Inc.",
+          "sub": "Consumer Electronics",
+          "cap": "MEGA"
+        },
+        {
+          "t": "MSFT",
+          "n": "Microsoft",
+          "sub": "Software",
+          "cap": "MEGA"
+        },
+        {
+          "t": "NVDA",
+          "n": "NVIDIA Corp.",
+          "sub": "Semiconductors",
+          "cap": "MEGA"
+        },
+        {
+          "t": "META",
+          "n": "Meta Platforms",
+          "sub": "Social Media",
+          "cap": "MEGA"
+        },
+        {
+          "t": "GOOGL",
+          "n": "Alphabet",
+          "sub": "Internet",
+          "cap": "MEGA"
+        },
+        {
+          "t": "AMD",
+          "n": "Advanced Micro Devices",
+          "sub": "Semiconductors",
+          "cap": "LARGE"
+        },
+        {
+          "t": "AVGO",
+          "n": "Broadcom Inc.",
+          "sub": "Semiconductors",
+          "cap": "LARGE"
+        },
+        {
+          "t": "QCOM",
+          "n": "Qualcomm",
+          "sub": "Semiconductors",
+          "cap": "LARGE"
+        },
+        {
+          "t": "AMAT",
+          "n": "Applied Materials",
+          "sub": "Semiconductor Equipment",
+          "cap": "LARGE"
+        },
+        {
+          "t": "LRCX",
+          "n": "Lam Research",
+          "sub": "Semiconductor Equipment",
+          "cap": "LARGE"
+        },
+        {
+          "t": "KLAC",
+          "n": "KLA Corp.",
+          "sub": "Semiconductor Equipment",
+          "cap": "LARGE"
+        },
+        {
+          "t": "MU",
+          "n": "Micron Technology",
+          "sub": "Memory",
+          "cap": "LARGE"
+        },
+        {
+          "t": "MRVL",
+          "n": "Marvell Technology",
+          "sub": "Semiconductors",
+          "cap": "LARGE"
+        },
+        {
+          "t": "PLTR",
+          "n": "Palantir",
+          "sub": "AI/Data",
+          "cap": "LARGE"
+        },
+        {
+          "t": "NOW",
+          "n": "ServiceNow",
+          "sub": "Enterprise SaaS",
+          "cap": "LARGE"
+        },
+        {
+          "t": "CRM",
+          "n": "Salesforce",
+          "sub": "Cloud CRM",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ADBE",
+          "n": "Adobe Inc.",
+          "sub": "Creative Software",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ORCL",
+          "n": "Oracle Corp.",
+          "sub": "Cloud/DB",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SNOW",
+          "n": "Snowflake",
+          "sub": "Cloud Data",
+          "cap": "LARGE"
+        },
+        {
+          "t": "DDOG",
+          "n": "Datadog",
+          "sub": "Monitoring",
+          "cap": "MID"
+        },
+        {
+          "t": "NET",
+          "n": "Cloudflare",
+          "sub": "Cybersecurity",
+          "cap": "MID"
+        },
+        {
+          "t": "CRWD",
+          "n": "CrowdStrike",
+          "sub": "Cybersecurity",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ZS",
+          "n": "Zscaler",
+          "sub": "Cybersecurity",
+          "cap": "MID"
+        },
+        {
+          "t": "PANW",
+          "n": "Palo Alto Networks",
+          "sub": "Cybersecurity",
+          "cap": "LARGE"
+        },
+        {
+          "t": "TTD",
+          "n": "The Trade Desk",
+          "sub": "AdTech",
+          "cap": "MID"
+        },
+        {
+          "t": "UBER",
+          "n": "Uber",
+          "sub": "Mobility Tech",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ABNB",
+          "n": "Airbnb",
+          "sub": "Travel Tech",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SPOT",
+          "n": "Spotify",
+          "sub": "Audio Streaming",
+          "cap": "MID"
+        },
+        {
+          "t": "RBLX",
+          "n": "Roblox",
+          "sub": "Gaming/Metaverse",
+          "cap": "MID"
+        },
+        {
+          "t": "EA",
+          "n": "Electronic Arts",
+          "sub": "Gaming",
+          "cap": "LARGE"
+        },
+        {
+          "t": "TTWO",
+          "n": "Take-Two Interactive",
+          "sub": "Gaming",
+          "cap": "MID"
+        },
+        {
+          "t": "INTC",
+          "n": "Intel Corp.",
+          "sub": "Semiconductors",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ON",
+          "n": "ON Semiconductor",
+          "sub": "Power Chips",
+          "cap": "MID"
+        },
+        {
+          "t": "ENPH",
+          "n": "Enphase Energy",
+          "sub": "Cleantech",
+          "cap": "MID"
+        },
+        {
+          "t": "OKTA",
+          "n": "Okta",
+          "sub": "Identity Security",
+          "cap": "MID"
+        },
+        {
+          "t": "DASH",
+          "n": "DoorDash",
+          "sub": "Food Delivery",
+          "cap": "MID"
+        },
+        {
+          "t": "LYFT",
+          "n": "Lyft",
+          "sub": "Mobility",
+          "cap": "SMALL"
+        },
+        {
+          "t": "U",
+          "n": "Unity Software",
+          "sub": "Game Engine",
+          "cap": "SMALL"
+        },
+        {
+          "t": "FTNT",
+          "n": "Fortinet",
+          "sub": "Cybersecurity",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SMCI",
+          "n": "Super Micro Computer",
+          "sub": "AI Servers",
+          "cap": "MID"
+        }
+      ]
+    },
+    "SP500_FINANCE": {
+      "label": "S&P 500 – Finanzen",
+      "region": "USA",
+      "momentum_potential": "MEDIUM",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "GS",
+          "n": "Goldman Sachs",
+          "sub": "Investment Banking",
+          "cap": "LARGE"
+        },
+        {
+          "t": "JPM",
+          "n": "JPMorgan Chase",
+          "sub": "Banking",
+          "cap": "MEGA"
+        },
+        {
+          "t": "MS",
+          "n": "Morgan Stanley",
+          "sub": "Investment Banking",
+          "cap": "LARGE"
+        },
+        {
+          "t": "BAC",
+          "n": "Bank of America",
+          "sub": "Banking",
+          "cap": "MEGA"
+        },
+        {
+          "t": "V",
+          "n": "Visa Inc.",
+          "sub": "Payments",
+          "cap": "MEGA"
+        },
+        {
+          "t": "MA",
+          "n": "Mastercard",
+          "sub": "Payments",
+          "cap": "MEGA"
+        },
+        {
+          "t": "AXP",
+          "n": "American Express",
+          "sub": "Credit Cards",
+          "cap": "LARGE"
+        },
+        {
+          "t": "BLK",
+          "n": "BlackRock",
+          "sub": "Asset Management",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SCHW",
+          "n": "Charles Schwab",
+          "sub": "Brokerage",
+          "cap": "LARGE"
+        },
+        {
+          "t": "IBKR",
+          "n": "Interactive Brokers",
+          "sub": "Brokerage",
+          "cap": "MID"
+        },
+        {
+          "t": "SQ",
+          "n": "Block Inc.",
+          "sub": "Fintech",
+          "cap": "MID"
+        },
+        {
+          "t": "PYPL",
+          "n": "PayPal",
+          "sub": "Payments",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SOFI",
+          "n": "SoFi Technologies",
+          "sub": "Digital Banking",
+          "cap": "SMALL"
+        },
+        {
+          "t": "AFRM",
+          "n": "Affirm Holdings",
+          "sub": "BNPL",
+          "cap": "SMALL"
+        },
+        {
+          "t": "HOOD",
+          "n": "Robinhood Markets",
+          "sub": "Retail Brokerage",
+          "cap": "SMALL"
+        },
+        {
+          "t": "NU",
+          "n": "Nu Holdings",
+          "sub": "Digital Bank LatAm",
+          "cap": "MID"
+        },
+        {
+          "t": "WFC",
+          "n": "Wells Fargo",
+          "sub": "Banking",
+          "cap": "LARGE"
+        },
+        {
+          "t": "C",
+          "n": "Citigroup",
+          "sub": "Banking",
+          "cap": "LARGE"
+        },
+        {
+          "t": "COF",
+          "n": "Capital One",
+          "sub": "Credit Cards",
+          "cap": "LARGE"
+        },
+        {
+          "t": "COIN",
+          "n": "Coinbase Global",
+          "sub": "Crypto Exchange",
+          "cap": "LARGE"
+        }
+      ]
+    },
+    "SP500_HEALTH": {
+      "label": "S&P 500 – Healthcare & Biotech",
+      "region": "USA",
+      "momentum_potential": "HIGH",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "LLY",
+          "n": "Eli Lilly",
+          "sub": "GLP-1 Pharma",
+          "cap": "MEGA"
+        },
+        {
+          "t": "NVO",
+          "n": "Novo Nordisk ADR",
+          "sub": "GLP-1 Pharma",
+          "cap": "MEGA"
+        },
+        {
+          "t": "ISRG",
+          "n": "Intuitive Surgical",
+          "sub": "Robotic Surgery",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ABBV",
+          "n": "AbbVie",
+          "sub": "Biopharma",
+          "cap": "MEGA"
+        },
+        {
+          "t": "AMGN",
+          "n": "Amgen",
+          "sub": "Biotech",
+          "cap": "LARGE"
+        },
+        {
+          "t": "GILD",
+          "n": "Gilead Sciences",
+          "sub": "Antivirals",
+          "cap": "LARGE"
+        },
+        {
+          "t": "REGN",
+          "n": "Regeneron",
+          "sub": "Biotech",
+          "cap": "LARGE"
+        },
+        {
+          "t": "VRTX",
+          "n": "Vertex Pharma",
+          "sub": "Rare Disease",
+          "cap": "LARGE"
+        },
+        {
+          "t": "MRNA",
+          "n": "Moderna",
+          "sub": "mRNA Biotech",
+          "cap": "MID"
+        },
+        {
+          "t": "BNTX",
+          "n": "BioNTech ADR",
+          "sub": "mRNA Biotech",
+          "cap": "MID"
+        },
+        {
+          "t": "DXCM",
+          "n": "DexCom",
+          "sub": "Glucose Monitoring",
+          "cap": "MID"
+        },
+        {
+          "t": "ALGN",
+          "n": "Align Technology",
+          "sub": "MedTech",
+          "cap": "MID"
+        },
+        {
+          "t": "EW",
+          "n": "Edwards Lifesciences",
+          "sub": "Heart Valves",
+          "cap": "LARGE"
+        },
+        {
+          "t": "PODD",
+          "n": "Insulet Corp.",
+          "sub": "Diabetes Tech",
+          "cap": "MID"
+        },
+        {
+          "t": "HIMS",
+          "n": "Hims & Hers",
+          "sub": "Telehealth",
+          "cap": "SMALL"
+        },
+        {
+          "t": "NVAX",
+          "n": "Novavax",
+          "sub": "Vaccines",
+          "cap": "SMALL"
+        },
+        {
+          "t": "EXAS",
+          "n": "Exact Sciences",
+          "sub": "Diagnostics",
+          "cap": "MID"
+        },
+        {
+          "t": "INCY",
+          "n": "Incyte Corp.",
+          "sub": "Oncology",
+          "cap": "MID"
+        },
+        {
+          "t": "HOLX",
+          "n": "Hologic",
+          "sub": "Women Health",
+          "cap": "MID"
+        },
+        {
+          "t": "DOCS",
+          "n": "Doximity",
+          "sub": "Healthcare Network",
+          "cap": "MID"
+        }
+      ]
+    },
+    "SP500_ENERGY": {
+      "label": "S&P 500 – Energie & Cleantech",
+      "region": "USA",
+      "momentum_potential": "MEDIUM",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "XOM",
+          "n": "ExxonMobil",
+          "sub": "Integrated Oil",
+          "cap": "MEGA"
+        },
+        {
+          "t": "CVX",
+          "n": "Chevron",
+          "sub": "Integrated Oil",
+          "cap": "MEGA"
+        },
+        {
+          "t": "COP",
+          "n": "ConocoPhillips",
+          "sub": "E&P",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SLB",
+          "n": "SLB Schlumberger",
+          "sub": "Oilfield Services",
+          "cap": "LARGE"
+        },
+        {
+          "t": "HAL",
+          "n": "Halliburton",
+          "sub": "Oilfield Services",
+          "cap": "LARGE"
+        },
+        {
+          "t": "MPC",
+          "n": "Marathon Petroleum",
+          "sub": "Refining",
+          "cap": "LARGE"
+        },
+        {
+          "t": "VLO",
+          "n": "Valero Energy",
+          "sub": "Refining",
+          "cap": "LARGE"
+        },
+        {
+          "t": "OXY",
+          "n": "Occidental Petroleum",
+          "sub": "E&P",
+          "cap": "LARGE"
+        },
+        {
+          "t": "DVN",
+          "n": "Devon Energy",
+          "sub": "E&P",
+          "cap": "MID"
+        },
+        {
+          "t": "FANG",
+          "n": "Diamondback Energy",
+          "sub": "E&P",
+          "cap": "MID"
+        },
+        {
+          "t": "NEE",
+          "n": "NextEra Energy",
+          "sub": "Renewables",
+          "cap": "LARGE"
+        },
+        {
+          "t": "FSLR",
+          "n": "First Solar",
+          "sub": "Solar",
+          "cap": "MID"
+        },
+        {
+          "t": "SEDG",
+          "n": "SolarEdge",
+          "sub": "Solar Inverters",
+          "cap": "SMALL"
+        },
+        {
+          "t": "RUN",
+          "n": "Sunrun",
+          "sub": "Residential Solar",
+          "cap": "SMALL"
+        },
+        {
+          "t": "BE",
+          "n": "Bloom Energy",
+          "sub": "Fuel Cells",
+          "cap": "SMALL"
+        },
+        {
+          "t": "PLUG",
+          "n": "Plug Power",
+          "sub": "Hydrogen",
+          "cap": "SMALL"
+        },
+        {
+          "t": "CEG",
+          "n": "Constellation Energy",
+          "sub": "Nuclear",
+          "cap": "LARGE"
+        },
+        {
+          "t": "VST",
+          "n": "Vistra Corp.",
+          "sub": "Power/Nuclear",
+          "cap": "LARGE"
+        },
+        {
+          "t": "NRG",
+          "n": "NRG Energy",
+          "sub": "Power Generation",
+          "cap": "LARGE"
+        },
+        {
+          "t": "CTRA",
+          "n": "Coterra Energy",
+          "sub": "E&P",
+          "cap": "MID"
+        }
+      ]
+    },
+    "SP500_CONSUMER": {
+      "label": "S&P 500 – Konsum & Retail",
+      "region": "USA",
+      "momentum_potential": "MEDIUM",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "TSLA",
+          "n": "Tesla Inc.",
+          "sub": "EV/Consumer Tech",
+          "cap": "MEGA"
+        },
+        {
+          "t": "AMZN",
+          "n": "Amazon",
+          "sub": "E-Commerce/Cloud",
+          "cap": "MEGA"
+        },
+        {
+          "t": "NKE",
+          "n": "Nike Inc.",
+          "sub": "Sportswear",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SBUX",
+          "n": "Starbucks",
+          "sub": "F&B",
+          "cap": "LARGE"
+        },
+        {
+          "t": "MCD",
+          "n": "McDonald's",
+          "sub": "Fast Food",
+          "cap": "LARGE"
+        },
+        {
+          "t": "CMG",
+          "n": "Chipotle",
+          "sub": "Fast Casual",
+          "cap": "LARGE"
+        },
+        {
+          "t": "COST",
+          "n": "Costco",
+          "sub": "Membership Retail",
+          "cap": "MEGA"
+        },
+        {
+          "t": "WMT",
+          "n": "Walmart",
+          "sub": "Discount Retail",
+          "cap": "MEGA"
+        },
+        {
+          "t": "TGT",
+          "n": "Target Corp.",
+          "sub": "Discount Retail",
+          "cap": "LARGE"
+        },
+        {
+          "t": "HD",
+          "n": "Home Depot",
+          "sub": "Home Improvement",
+          "cap": "MEGA"
+        },
+        {
+          "t": "LOW",
+          "n": "Lowe's",
+          "sub": "Home Improvement",
+          "cap": "LARGE"
+        },
+        {
+          "t": "LULU",
+          "n": "Lululemon",
+          "sub": "Athleisure",
+          "cap": "LARGE"
+        },
+        {
+          "t": "ETSY",
+          "n": "Etsy Inc.",
+          "sub": "E-Commerce",
+          "cap": "MID"
+        },
+        {
+          "t": "W",
+          "n": "Wayfair",
+          "sub": "Online Furniture",
+          "cap": "SMALL"
+        },
+        {
+          "t": "RH",
+          "n": "RH (Rest. Hardware)",
+          "sub": "Luxury Home",
+          "cap": "MID"
+        }
+      ]
+    },
+    "SP500_INDUSTRIAL": {
+      "label": "S&P 500 – Industrie & Rüstung",
+      "region": "USA",
+      "momentum_potential": "MEDIUM",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "CAT",
+          "n": "Caterpillar",
+          "sub": "Heavy Equipment",
+          "cap": "LARGE"
+        },
+        {
+          "t": "DE",
+          "n": "Deere & Co.",
+          "sub": "Agricultural Machinery",
+          "cap": "LARGE"
+        },
+        {
+          "t": "GE",
+          "n": "GE Aerospace",
+          "sub": "Aerospace Engines",
+          "cap": "LARGE"
+        },
+        {
+          "t": "HON",
+          "n": "Honeywell",
+          "sub": "Industrial Conglomerate",
+          "cap": "LARGE"
+        },
+        {
+          "t": "LMT",
+          "n": "Lockheed Martin",
+          "sub": "Defense",
+          "cap": "LARGE"
+        },
+        {
+          "t": "RTX",
+          "n": "RTX Corp.",
+          "sub": "Defense",
+          "cap": "LARGE"
+        },
+        {
+          "t": "NOC",
+          "n": "Northrop Grumman",
+          "sub": "Defense",
+          "cap": "LARGE"
+        },
+        {
+          "t": "BA",
+          "n": "Boeing",
+          "sub": "Aerospace",
+          "cap": "LARGE"
+        },
+        {
+          "t": "GD",
+          "n": "General Dynamics",
+          "sub": "Defense",
+          "cap": "LARGE"
+        },
+        {
+          "t": "AXON",
+          "n": "Axon Enterprise",
+          "sub": "Public Safety Tech",
+          "cap": "MID"
+        },
+        {
+          "t": "TDG",
+          "n": "TransDigm Group",
+          "sub": "Aerospace Components",
+          "cap": "LARGE"
+        },
+        {
+          "t": "CARR",
+          "n": "Carrier Global",
+          "sub": "HVAC",
+          "cap": "LARGE"
+        },
+        {
+          "t": "LDOS",
+          "n": "Leidos Holdings",
+          "sub": "Defense IT",
+          "cap": "MID"
+        },
+        {
+          "t": "BAH",
+          "n": "Booz Allen Hamilton",
+          "sub": "Gov. Consulting",
+          "cap": "MID"
+        },
+        {
+          "t": "SAIC",
+          "n": "Science Applications",
+          "sub": "Gov. IT",
+          "cap": "MID"
+        }
+      ]
+    },
+    "NASDAQ_GROWTH": {
+      "label": "NASDAQ – High-Growth & AI-Plays",
+      "region": "USA",
+      "momentum_potential": "VERY_HIGH",
+      "plus500_available": true,
+      "tickers": [
+        {
+          "t": "ARM",
+          "n": "Arm Holdings",
+          "sub": "CPU Architecture",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SOUN",
+          "n": "SoundHound AI",
+          "sub": "Voice AI",
+          "cap": "SMALL"
+        },
+        {
+          "t": "AI",
+          "n": "C3.ai Inc.",
+          "sub": "Enterprise AI",
+          "cap": "SMALL"
+        },
+        {
+          "t": "IONQ",
+          "n": "IonQ",
+          "sub": "Quantum Computing",
+          "cap": "SMALL"
+        },
+        {
+          "t": "RGTI",
+          "n": "Rigetti Computing",
+          "sub": "Quantum",
+          "cap": "SMALL"
+        },
+        {
+          "t": "QBTS",
+          "n": "D-Wave Quantum",
+          "sub": "Quantum",
+          "cap": "SMALL"
+        },
+        {
+          "t": "PATH",
+          "n": "UiPath",
+          "sub": "RPA/Automation",
+          "cap": "MID"
+        },
+        {
+          "t": "GTLB",
+          "n": "GitLab",
+          "sub": "DevOps",
+          "cap": "MID"
+        },
+        {
+          "t": "CELH",
+          "n": "Celsius Holdings",
+          "sub": "Energy Drinks",
+          "cap": "MID"
+        },
+        {
+          "t": "DUOL",
+          "n": "Duolingo",
+          "sub": "EdTech",
+          "cap": "MID"
+        },
+        {
+          "t": "ACHR",
+          "n": "Archer Aviation",
+          "sub": "eVTOL",
+          "cap": "SMALL"
+        },
+        {
+          "t": "JOBY",
+          "n": "Joby Aviation",
+          "sub": "eVTOL",
+          "cap": "SMALL"
+        },
+        {
+          "t": "RKLB",
+          "n": "Rocket Lab USA",
+          "sub": "Space Rockets",
+          "cap": "SMALL"
+        },
+        {
+          "t": "ASTS",
+          "n": "AST SpaceMobile",
+          "sub": "Space Internet",
+          "cap": "SMALL"
+        },
+        {
+          "t": "MELI",
+          "n": "MercadoLibre",
+          "sub": "LatAm E-Commerce",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SE",
+          "n": "Sea Limited",
+          "sub": "SE Asia Digital",
+          "cap": "MID"
+        },
+        {
+          "t": "SHOP",
+          "n": "Shopify",
+          "sub": "E-Commerce Platform",
+          "cap": "LARGE"
+        },
+        {
+          "t": "VRT",
+          "n": "Vertiv Holdings",
+          "sub": "Data Center Infra",
+          "cap": "LARGE"
+        },
+        {
+          "t": "EQIX",
+          "n": "Equinix",
+          "sub": "Data Centers",
+          "cap": "LARGE"
+        },
+        {
+          "t": "DLR",
+          "n": "Digital Realty",
+          "sub": "Data Centers",
+          "cap": "LARGE"
+        },
+        {
+          "t": "DELL",
+          "n": "Dell Technologies",
+          "sub": "AI Servers",
+          "cap": "LARGE"
+        },
+        {
+          "t": "PSTG",
+          "n": "Pure Storage",
+          "sub": "Flash Storage",
+          "cap": "MID"
+        },
+        {
+          "t": "ALAB",
+          "n": "Astera Labs",
+          "sub": "AI Connectivity",
+          "cap": "MID"
+        },
+        {
+          "t": "APP",
+          "n": "AppLovin Corp.",
+          "sub": "Ad Tech/AI",
+          "cap": "LARGE"
+        },
+        {
+          "t": "CAVA",
+          "n": "CAVA Group",
+          "sub": "Fast Casual",
+          "cap": "MID"
+        },
+        {
+          "t": "RXRX",
+          "n": "Recursion Pharma",
+          "sub": "AI Drug Discovery",
+          "cap": "SMALL"
+        },
+        {
+          "t": "ARKG",
+          "n": "ARK Genomic ETF",
+          "sub": "Genomics ETF",
+          "cap": "MID"
+        },
+        {
+          "t": "ARKK",
+          "n": "ARK Innovation ETF",
+          "sub": "Disruptive Tech ETF",
+          "cap": "MID"
+        },
+        {
+          "t": "KWEB",
+          "n": "KraneShares CSI China",
+          "sub": "China Tech ETF",
+          "cap": "MID"
+        },
+        {
+          "t": "CQQQ",
+          "n": "China Technology ETF",
+          "sub": "China Tech ETF",
+          "cap": "SMALL"
+        },
+        {
+          "t": "BBAI",
+          "n": "BigBear.ai",
+          "sub": "AI Analytics",
+          "cap": "SMALL"
+        },
+        {
+          "t": "LUNR",
+          "n": "Intuitive Machines",
+          "sub": "Space Tech",
+          "cap": "SMALL"
+        }
+      ]
+    },
+    "RUSSELL_SMALLCAP": {
+      "label": "Russell 2000 – Small Cap Momentum",
+      "region": "USA",
+      "momentum_potential": "VERY_HIGH",
+      "plus500_available": "PARTIAL",
+      "tickers": [
+        {
+          "t": "WOLF",
+          "n": "Wolfspeed",
+          "sub": "SiC Semiconductors",
+          "cap": "SMALL"
+        },
+        {
+          "t": "NVTS",
+          "n": "Navitas Semiconductor",
+          "sub": "GaN Power",
+          "cap": "SMALL"
+        },
+        {
+          "t": "AMBA",
+          "n": "Ambarella",
+          "sub": "AI Vision Chips",
+          "cap": "SMALL"
+        },
+        {
+          "t": "SMTC",
+          "n": "Semtech Corp.",
+          "sub": "Semiconductors",
+          "cap": "SMALL"
+        },
+        {
+          "t": "ACLS",
+          "n": "Axcelis Technologies",
+          "sub": "Ion Implant",
+          "cap": "SMALL"
+        },
+        {
+          "t": "FORM",
+          "n": "FormFactor",
+          "sub": "Probe Cards",
+          "cap": "SMALL"
+        },
+        {
+          "t": "MGNI",
+          "n": "Magnite",
+          "sub": "AdTech",
+          "cap": "SMALL"
+        },
+        {
+          "t": "DV",
+          "n": "DoubleVerify",
+          "sub": "Ad Verification",
+          "cap": "SMALL"
+        },
+        {
+          "t": "APPF",
+          "n": "AppFolio",
+          "sub": "PropTech SaaS",
+          "cap": "SMALL"
+        },
+        {
+          "t": "PRVA",
+          "n": "Privia Health",
+          "sub": "Health IT",
+          "cap": "SMALL"
+        },
+        {
+          "t": "ADMA",
+          "n": "ADMA Biologics",
+          "sub": "Plasma Products",
+          "cap": "SMALL"
+        },
+        {
+          "t": "RXST",
+          "n": "RxSight",
+          "sub": "Ophthalmology",
+          "cap": "SMALL"
+        },
+        {
+          "t": "PRCT",
+          "n": "PROCEPT BioRobotics",
+          "sub": "Robotic Surgery",
+          "cap": "SMALL"
+        },
+        {
+          "t": "GKOS",
+          "n": "Glaukos Corp.",
+          "sub": "Eye Care",
+          "cap": "SMALL"
+        },
+        {
+          "t": "TGTX",
+          "n": "TG Therapeutics",
+          "sub": "Multiple Sclerosis",
+          "cap": "SMALL"
+        },
+        {
+          "t": "HALO",
+          "n": "Halozyme",
+          "sub": "Drug Delivery",
+          "cap": "SMALL"
+        },
+        {
+          "t": "SKY",
+          "n": "Skyline Champion",
+          "sub": "Manufactured Homes",
+          "cap": "SMALL"
+        },
+        {
+          "t": "IBP",
+          "n": "Installed Building Prods",
+          "sub": "Construction",
+          "cap": "SMALL"
+        },
+        {
+          "t": "CSWI",
+          "n": "CSW Industrials",
+          "sub": "Industrial",
+          "cap": "SMALL"
+        },
+        {
+          "t": "CEIX",
+          "n": "CONSOL Energy",
+          "sub": "Coal",
+          "cap": "SMALL"
+        },
+        {
+          "t": "CRBG",
+          "n": "Corebridge Financial",
+          "sub": "Insurance",
+          "cap": "MID"
+        },
+        {
+          "t": "RDW",
+          "n": "Redwire Corp.",
+          "sub": "Space Infra",
+          "cap": "SMALL"
+        },
+        {
+          "t": "LIDR",
+          "n": "AEye Inc.",
+          "sub": "LiDAR",
+          "cap": "SMALL"
+        },
+        {
+          "t": "OUST",
+          "n": "Ouster Inc.",
+          "sub": "LiDAR",
+          "cap": "SMALL"
+        },
+        {
+          "t": "LAZR",
+          "n": "Luminar Technologies",
+          "sub": "LiDAR",
+          "cap": "SMALL"
+        },
+        {
+          "t": "NKLA",
+          "n": "Nikola Corp.",
+          "sub": "Hydrogen Trucks",
+          "cap": "SMALL"
+        },
+        {
+          "t": "WKHS",
+          "n": "Workhorse Group",
+          "sub": "EV Delivery",
+          "cap": "SMALL"
+        },
+        {
+          "t": "PAYO",
+          "n": "Payoneer Global",
+          "sub": "Cross-border Payments",
+          "cap": "SMALL"
+        },
+        {
+          "t": "STEP",
+          "n": "StepStone Group",
+          "sub": "Alt Investments",
+          "cap": "MID"
+        },
+        {
+          "t": "MBIN",
+          "n": "Merchants Financial",
+          "sub": "Banking",
+          "cap": "SMALL"
+        }
+      ]
+    },
+    "CHINA_ADR": {
+      "label": "China – ADRs & US-Listings",
+      "region": "China_ADR",
+      "momentum_potential": "HIGH",
+      "plus500_available": "PARTIAL",
+      "risk_note": "Erhöhtes Risiko: Regulierung, Delisting, Handelszeiten",
+      "tickers": [
+        {
+          "t": "BABA",
+          "n": "Alibaba Group",
+          "sub": "E-Commerce/Cloud",
+          "cap": "MEGA"
+        },
+        {
+          "t": "JD",
+          "n": "JD.com",
+          "sub": "E-Commerce",
+          "cap": "LARGE"
+        },
+        {
+          "t": "PDD",
+          "n": "PDD Holdings (Temu)",
+          "sub": "E-Commerce",
+          "cap": "LARGE"
+        },
+        {
+          "t": "BIDU",
+          "n": "Baidu",
+          "sub": "Search/AI",
+          "cap": "LARGE"
+        },
+        {
+          "t": "NIO",
+          "n": "NIO Inc.",
+          "sub": "Electric Vehicles",
+          "cap": "MID"
+        },
+        {
+          "t": "XPEV",
+          "n": "XPeng",
+          "sub": "Electric Vehicles",
+          "cap": "MID"
+        },
+        {
+          "t": "LI",
+          "n": "Li Auto",
+          "sub": "Electric Vehicles",
+          "cap": "MID"
+        },
+        {
+          "t": "NTES",
+          "n": "NetEase",
+          "sub": "Gaming/Internet",
+          "cap": "LARGE"
+        },
+        {
+          "t": "TME",
+          "n": "Tencent Music",
+          "sub": "Music Streaming",
+          "cap": "MID"
+        },
+        {
+          "t": "BILI",
+          "n": "Bilibili",
+          "sub": "Video Platform",
+          "cap": "MID"
+        },
+        {
+          "t": "IQ",
+          "n": "iQIYI",
+          "sub": "Video Streaming",
+          "cap": "SMALL"
+        },
+        {
+          "t": "YUMC",
+          "n": "Yum China",
+          "sub": "Fast Food",
+          "cap": "LARGE"
+        },
+        {
+          "t": "VNET",
+          "n": "VNET Group",
+          "sub": "Data Centers",
+          "cap": "SMALL"
+        },
+        {
+          "t": "GDS",
+          "n": "GDS Holdings",
+          "sub": "Data Centers",
+          "cap": "SMALL"
+        },
+        {
+          "t": "TIGR",
+          "n": "UP Fintech (Tiger)",
+          "sub": "Online Brokerage",
+          "cap": "SMALL"
+        },
+        {
+          "t": "FUTU",
+          "n": "Futu Holdings",
+          "sub": "Online Brokerage",
+          "cap": "SMALL"
+        },
+        {
+          "t": "TCOM",
+          "n": "Trip.com Group",
+          "sub": "Online Travel",
+          "cap": "LARGE"
+        },
+        {
+          "t": "HTHT",
+          "n": "H World Group",
+          "sub": "Hotels",
+          "cap": "MID"
+        },
+        {
+          "t": "ZTO",
+          "n": "ZTO Express",
+          "sub": "Logistics",
+          "cap": "MID"
+        },
+        {
+          "t": "MNSO",
+          "n": "MINISO Group",
+          "sub": "Lifestyle Retail",
+          "cap": "MID"
+        },
+        {
+          "t": "CANG",
+          "n": "Cango Inc.",
+          "sub": "Auto Finance",
+          "cap": "SMALL"
+        },
+        {
+          "t": "KC",
+          "n": "Kingsoft Cloud",
+          "sub": "Cloud Services",
+          "cap": "SMALL"
+        },
+        {
+          "t": "QFIN",
+          "n": "360 DigiTech",
+          "sub": "Fintech",
+          "cap": "SMALL"
+        },
+        {
+          "t": "LPSN",
+          "n": "LivePerson",
+          "sub": "AI Chat",
+          "cap": "SMALL"
+        },
+        {
+          "t": "WB",
+          "n": "Weibo Corp.",
+          "sub": "Social Media",
+          "cap": "SMALL"
+        }
+      ]
+    },
+    "CRYPTO_STOCKS": {
+      "label": "Crypto-Stocks & Bitcoin-Proxies",
+      "region": "USA",
+      "momentum_potential": "EXTREME",
+      "plus500_available": true,
+      "risk_note": "Stark korreliert mit BTC. ESMA-Limit 1:2 für Krypto-CFDs, 1:5 für Aktien-CFDs",
+      "tickers": [
+        {
+          "t": "COIN",
+          "n": "Coinbase Global",
+          "sub": "Crypto Exchange",
+          "cap": "LARGE",
+          "btc_beta": 1.5
+        },
+        {
+          "t": "MSTR",
+          "n": "MicroStrategy",
+          "sub": "BTC Treasury",
+          "cap": "LARGE",
+          "btc_beta": 2.0
+        },
+        {
+          "t": "RIOT",
+          "n": "Riot Platforms",
+          "sub": "BTC Mining",
+          "cap": "MID",
+          "btc_beta": 2.2
+        },
+        {
+          "t": "MARA",
+          "n": "Marathon Digital",
+          "sub": "BTC Mining",
+          "cap": "MID",
+          "btc_beta": 2.1
+        },
+        {
+          "t": "CLSK",
+          "n": "CleanSpark",
+          "sub": "BTC Mining",
+          "cap": "SMALL",
+          "btc_beta": 2.3
+        },
+        {
+          "t": "HUT",
+          "n": "Hut 8 Corp.",
+          "sub": "BTC Mining",
+          "cap": "SMALL",
+          "btc_beta": 2.0
+        },
+        {
+          "t": "BITF",
+          "n": "Bitfarms",
+          "sub": "BTC Mining",
+          "cap": "SMALL",
+          "btc_beta": 2.1
+        },
+        {
+          "t": "CIFR",
+          "n": "Cipher Mining",
+          "sub": "BTC Mining",
+          "cap": "SMALL",
+          "btc_beta": 2.4
+        },
+        {
+          "t": "IREN",
+          "n": "IREN Limited",
+          "sub": "BTC Mining/AI",
+          "cap": "SMALL",
+          "btc_beta": 2.0
+        },
+        {
+          "t": "BTBT",
+          "n": "Bit Digital",
+          "sub": "BTC Mining",
+          "cap": "SMALL",
+          "btc_beta": 1.9
+        },
+        {
+          "t": "CORZ",
+          "n": "Core Scientific",
+          "sub": "BTC Mining/AI HPC",
+          "cap": "MID",
+          "btc_beta": 1.8
+        },
+        {
+          "t": "SMLR",
+          "n": "Semler Scientific",
+          "sub": "BTC Treasury",
+          "cap": "SMALL",
+          "btc_beta": 1.8
+        },
+        {
+          "t": "IBIT",
+          "n": "iShares Bitcoin Trust",
+          "sub": "BTC Spot ETF",
+          "cap": "LARGE",
+          "btc_beta": 0.98
+        },
+        {
+          "t": "FBTC",
+          "n": "Fidelity Bitcoin ETF",
+          "sub": "BTC Spot ETF",
+          "cap": "LARGE",
+          "btc_beta": 0.98
+        },
+        {
+          "t": "BITO",
+          "n": "ProShares Bitcoin ETF",
+          "sub": "BTC Futures ETF",
+          "cap": "MID",
+          "btc_beta": 0.95
+        },
+        {
+          "t": "WGMI",
+          "n": "Valkyrie BTC Miners ETF",
+          "sub": "Mining ETF",
+          "cap": "SMALL",
+          "btc_beta": 2.0
+        },
+        {
+          "t": "GLXY",
+          "n": "Galaxy Digital (OTC)",
+          "sub": "Crypto Finance",
+          "cap": "MID",
+          "btc_beta": 1.6
+        },
+        {
+          "t": "HOOD",
+          "n": "Robinhood Markets",
+          "sub": "Retail Crypto/Stocks",
+          "cap": "SMALL",
+          "btc_beta": 1.2
+        },
+        {
+          "t": "SQ",
+          "n": "Block Inc.",
+          "sub": "Crypto/Fintech",
+          "cap": "MID",
+          "btc_beta": 0.8
+        },
+        {
+          "t": "PYPL",
+          "n": "PayPal",
+          "sub": "Crypto Payments",
+          "cap": "LARGE",
+          "btc_beta": 0.5
+        }
+      ]
+    },
+    "LEVERAGED_ETFS": {
+      "label": "Gehebelte ETFs – Markt-Signalgeber",
+      "region": "USA",
+      "momentum_potential": "EXTREME",
+      "plus500_available": true,
+      "note": "Primär als Markt-Trendindikator – kein Overnight-Halten empfohlen",
+      "tickers": [
+        {
+          "t": "TQQQ",
+          "n": "ProShares UltraPro QQQ 3x",
+          "sub": "Tech 3x Long",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SQQQ",
+          "n": "ProShares Short QQQ 3x",
+          "sub": "Tech 3x Short",
+          "cap": "LARGE"
+        },
+        {
+          "t": "SOXL",
+          "n": "Direxion Semis Bull 3x",
+          "sub": "Semiconductor 3x",
+          "cap": "MID"
+        },
+        {
+          "t": "SOXS",
+          "n": "Direxion Semis Bear 3x",
+          "sub": "Semiconductor 3x Short",
+          "cap": "MID"
+        },
+        {
+          "t": "FNGU",
+          "n": "MicroSectors FANG+ 3x",
+          "sub": "Big Tech 3x",
+          "cap": "MID"
+        },
+        {
+          "t": "SPXL",
+          "n": "Direxion S&P 500 Bull 3x",
+          "sub": "S&P 3x Long",
+          "cap": "MID"
+        },
+        {
+          "t": "LABU",
+          "n": "Direxion Biotech Bull 3x",
+          "sub": "Biotech 3x",
+          "cap": "SMALL"
+        },
+        {
+          "t": "MIDU",
+          "n": "Direxion MidCap Bull 3x",
+          "sub": "MidCap 3x",
+          "cap": "SMALL"
+        },
+        {
+          "t": "YINN",
+          "n": "Direxion China Bull 3x",
+          "sub": "China 3x Long",
+          "cap": "SMALL"
+        },
+        {
+          "t": "YANG",
+          "n": "Direxion China Bear 3x",
+          "sub": "China 3x Short",
+          "cap": "SMALL"
+        }
+      ]
+    }
+  }
+}

@@ -332,7 +332,6 @@ export default function App() {
   const [stockData, setStockData] = useState({});
   const [loadingSegments, setLoadingSegments] = useState(new Set(Object.keys(SECTORS)));
   const [lastUpdated, setLastUpdated] = useState(null);
-  const [mockMode, setMockMode] = useState(false);
   const [error, setError] = useState(null);
   const [filter, setFilter] = useState("ALL");
   const [search, setSearch] = useState("");
@@ -351,7 +350,6 @@ export default function App() {
       for (let i = 0; i < tickers.length; i += BATCH_SIZE) {
         try {
           const result = await fetchQuotes(tickers.slice(i, i + BATCH_SIZE));
-          if (result._mockMode) setMockMode(true);
           setStockData(prev => { const n = { ...prev }; result.data.forEach(d => { n[d.ticker] = d; }); return n; });
         } catch (e) { if (e.name !== "AbortError") setError("Marktdaten nicht erreichbar"); }
       }
@@ -414,14 +412,6 @@ export default function App() {
             </button>
           </div>
         </div>
-
-        {/* MOCK MODE BANNER */}
-        {mockMode && (
-          <div style={{ background: "rgba(245,158,11,0.08)", border: "1px solid rgba(245,158,11,0.25)", borderRadius: 8, padding: "9px 16px", marginBottom: 12, display: "flex", gap: 10, alignItems: "center" }}>
-            <AlertTriangle size={13} color="#f59e0b" />
-            <span style={{ fontSize: 11, color: "#fcd34d" }}>Demo-Modus: Simulierte Kursdaten · Yahoo Finance API derzeit nicht verfügbar</span>
-          </div>
-        )}
 
         {/* ERROR */}
         {error && (
